@@ -1,0 +1,12 @@
+#!/bin/bash
+
+alias dr="docker-compose run --rm web"
+alias dx="docker-compose exec web"
+alias dup="docker-compose up"
+alias db="docker-compose build"
+
+# sudo chown -R $USER:$USER polls manage.py - changes ownership of the 'polls' folder from 'root' to 'ellen'
+
+# docker compose down - run the root directory of project to kill all project containers
+
+# use dr command before doing anything with python
